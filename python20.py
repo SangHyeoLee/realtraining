@@ -1,16 +1,10 @@
-n= 123
-x=str(n)
-sum1=0
-sum2=0
-for i in x:
-  sum1+=int(i)
-print(sum1)
+# 저수 number가 주어질 때, 각 자릿수의 합을 구해서 출력해보세요
+number = 123
+result = 0
+while number:
+  #몫은 다음 number가 됨.
+  #나머지는 더해나가면 된다!.
+  result += number%10
+  number //=10
+print(result)
 
-def solution(n):
-    answer=0
-    while n>0 :
-        answer+=n%10
-        n//=10
-    return answer
-
-print(solution(n))
