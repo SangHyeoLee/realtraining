@@ -1,14 +1,7 @@
-T = int(input())
-
-for i in range(T):
-    P, Q, R, S, W = map(int, input().split())
-
-    A = P * W
-    B = Q if W <= R else Q + S * (W - R)
-
-    if A > B:
-        result = B
+    P, Q, R, S, W =map(imt, input(). split())
+    A = W * P
+    if R> W:
+        B= Q
     else:
-        result = A
-    
-    print(f"#{i + 1}", result)
+        B = Q + S*(W-R)
+    print(f'#{test_case}  {min(A,B)}')
