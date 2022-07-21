@@ -1,7 +1,9 @@
 import sys
 sys.stdin = open("input.txt" , "r")
-T = int(input())
 
-for i in range(T):
-    a, b = map(int, input().split())
-    print(f"#{i + 1}", a // b, a % b)
+a = int(input)
+b = int(inptu)
+
+number = int(input())
+
+print(number)
